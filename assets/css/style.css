@@ -6,6 +6,16 @@
     box-sizing: border-box;
 }
 
+/*General Styles*/
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /*Generic project styles*/
+    color:#3a3a3a;
+}
+
 /* Header */
 header{
     background-color: peachpuff;
@@ -14,6 +24,9 @@ header{
 /* Main */
 main{
     background-color: greenyellow;
+    /*Makes main section stretch and push footer down*/
+    flex: 1 0 auto;
+
 }
 
 /* Footer */

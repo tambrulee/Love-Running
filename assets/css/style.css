@@ -145,4 +145,11 @@ h1{
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
+
+    /* Main Content */
+    main {
+        /* Push main content down to accommodate larger header */
+        margin-top: 77px;
+
+    }
 }

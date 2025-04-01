@@ -26,6 +26,10 @@ h3 {
   color: #252525;
 }
 
+.hidden-heading{
+    display: none;
+}
+
 /* Header */
 header {
   background-color: #ffffff;
@@ -263,6 +267,8 @@ main {
     /*Overrid the heading*/
     color: #fafafa;
 }
+
+
 
 /* Media query: tablets and larger (992px and up) */
 @media screen and (min-width: 992px) {
